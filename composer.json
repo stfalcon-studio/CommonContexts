@@ -1,5 +1,5 @@
 {
-    "name":         "behat/common-contexts",
+    "name":         "stfalcon-studio/behat-common-contexts",
     "description":  "Commonly used contexts for Behat",
     "keywords":     ["BDD", "Behat", "Symfony2", "Context"],
     "homepage":     "http://behat.org/",
@@ -25,12 +25,18 @@
             "name":      "Geoffrey Bachelet",
             "email":     "geoffrey.bachelet@gmail.com",
             "homepage":  "https://github.com/ubermuda"
+        },
+        {
+            "name":      "Web-studio Stfalcon.com",
+            "email":     "info@stfalcon.com",
+            "homepage":  "http://stfalcon.com"
         }
     ],
 
     "require": {
         "php":          ">=5.3.1",
-        "behat/behat":  ">=2.2.2"
+        "behat/behat":  ">=2.2.2",
+        "doctrine/data-fixtures": "*"
     },
 
     "suggest": {
@@ -42,7 +48,7 @@
 
     "autoload": {
         "psr-0": {
-            "Behat\\CommonContexts": ""
+            "StfalconStudio\\Behat\\CommonContexts": ""
         }
     }
 }
