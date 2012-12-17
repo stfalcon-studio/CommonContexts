@@ -1,6 +1,6 @@
 <?php
 
-namespace Behat\CommonContexts;
+namespace StfalconStudio\Behat\CommonContexts;
 
 use Behat\Gherkin\Node\PyStringNode;
 use Behat\Gherkin\Node\TableNode;
